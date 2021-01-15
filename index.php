@@ -125,7 +125,7 @@ include('db.php');
 						<div class="w3layouts-banner-top w3layouts-banner-top2">
 							<div class="container">
 								<div class="agileits-banner-info">
-								<h4>MNM HOTEL</h4>
+								<h4>START YOUR JOURNEY WITH US</h4>
 								<h3>want luxurious vacation?</h3>
 										<p>Get accommodation today</p>
 									<div class="agileits_w3layouts_more menu__item">
