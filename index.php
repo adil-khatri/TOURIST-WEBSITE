@@ -4,7 +4,7 @@ include('db.php');
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>MNM HOTEL</title>
+<title>Tours and Travels</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -24,8 +24,10 @@ include('db.php');
 <link href="//fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
 <link href="//fonts.googleapis.com/css?family=Federo" rel="stylesheet">
 <link href="//fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/style.css" />
 <!--//fonts-->
 </head>
+
 <body>
 <!-- header -->
 <div class="banner-top">
@@ -66,7 +68,7 @@ include('db.php');
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<h1><a class="navbar-brand" href="index.php">EYE TO EYE <span>INTERNATIONAL</span><p class="logo_w3l_agile_caption">Tour Operators</p></a></h1>
+					<h1><a class="navbar-brand" href="index.php">eye to eye <span>International</span><p class="logo_w3l_agile_caption">Tour Operators</p></a></h1>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
@@ -97,7 +99,7 @@ include('db.php');
 
 							<div class="container">
 								<div class="agileits-banner-info">
-								<h4>MNM HOTEL</h4>
+								<h4>Start Your Journey With Us</h4>
 									<h3>We know what you love</h3>
 										<p>Welcome to our hotels</p>
 									<div class="agileits_w3layouts_more menu__item">
@@ -111,8 +113,8 @@ include('db.php');
 						<div class="w3layouts-banner-top w3layouts-banner-top1">
 							<div class="container">
 								<div class="agileits-banner-info">
-								<h4>MNM HOTEL</h4>
-									<h3>Stay with friends & families</h3>
+								<h4>India Rarely changes and rarely forgets</h4>
+									<h3>Tour with friends & families</h3>
 										<p>Come & enjoy precious moment with us</p>
 									<div class="agileits_w3layouts_more menu__item">
 				<a href="#" class="menu__link" data-toggle="modal" data-target="#myModal">Learn More</a>
@@ -125,9 +127,9 @@ include('db.php');
 						<div class="w3layouts-banner-top w3layouts-banner-top2">
 							<div class="container">
 								<div class="agileits-banner-info">
-								<h4>START YOUR JOURNEY WITH US</h4>
+								<h4>tourism in india is waiting for you</h4>
 								<h3>want luxurious vacation?</h3>
-										<p>Get accommodation today</p>
+										<p>Experience with us</p>
 									<div class="agileits_w3layouts_more menu__item">
 											<a href="#" class="menu__link" data-toggle="modal" data-target="#myModal">Learn More</a>
 										</div>
@@ -860,6 +862,7 @@ fit: true
 	</div>
 <!-- //smooth scrolling -->
 <script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+
 </body>
 </html>
 
