@@ -9,14 +9,10 @@
 <!DOCTYPE html>
 <html >
 <head>
-  <meta charset="UTF-8">
-  <title>MNM HOTEL ADMIN</title>
-  
-  
-     
-      <link rel="stylesheet" href="css/style.css">
 
-  
+  <title>ETEI ADMIN LOGIN</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/styling.css" />
 </head>
 
 <body>
@@ -51,7 +47,7 @@
       </div> <!-- end login -->
 
     </div>
-    <div class="bottom">  <h3><a href="../index.php">MNM HOTEL HOMEPAGE</a></h3></div>
+    <div class="bottom">  <h3><a href="../index.php">EYE TO EYE INTERNATIONAL HOMEPAGE</a></h3></div>
   
   
 </body>

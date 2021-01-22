@@ -24,10 +24,39 @@ include('db.php');
 <link href="//fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
 <link href="//fonts.googleapis.com/css?family=Federo" rel="stylesheet">
 <link href="//fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/stylo.css" />
 <!--//fonts-->
 </head>
+<style>
+	.agileits-banner-info p {
+    color: #ffce14;
+    font-size: 1em;
+    line-height: 1.8em;
+    letter-spacing: 7px;
+    margin: 1em auto;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.callbacks_tabs {
+    list-style: none;
+    position: absolute;
+    top: 51%;
+    left: 46%;
+    padding: 0;
+    margin: 0;
+    display: block;
+    z-index: 99;
+}
+.agileits-banner-info h4 {
+    font-size: 2em;
+    color: #ffce14;
+    letter-spacing: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
 
+</style>
 <body>
 <!-- header -->
 <div class="banner-top">
@@ -40,7 +69,7 @@ include('db.php');
 			</div>
 			<div class="contact-bnr-w3-agile">
 				<ul>
-					<li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">bookings@mnmhotel.com</a></li>
+					<li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">eyetoeyeinternational@gmail.com</a></li>
 					<li><i class="fa fa-phone" aria-hidden="true"></i>+91 7439121234</li>	
 					<li class="s-bar">
 						<div class="search">
@@ -75,10 +104,10 @@ include('db.php');
 					<nav class="menu menu--iris">
 						<ul class="nav navbar-nav menu__list">
 							<li class="menu__item menu__item--current"><a href="" class="menu__link">Home</a></li>
-							<li class="menu__item"><a href="#about" class="menu__link scroll">About</a></li>
-							<li class="menu__item"><a href="#team" class="menu__link scroll">Team</a></li>
+							<li class="menu__item"><a href="about.html" class="menu__link" >About</a></li>
+							<li class="menu__item"><a href="#packages" class="menu__link scroll">Packages</a></li>
 							<li class="menu__item"><a href="#gallery" class="menu__link scroll">Gallery</a></li>
-							<li class="menu__item"><a href="#rooms" class="menu__link scroll">Rooms</a></li>
+							<li class="menu__item"><a href="#rooms" class="menu__link scroll">Blogs</a></li>
 							<li class="menu__item"><a href="#contact" class="menu__link scroll">Contact Us</a></li>
 						</ul>
 					</nav>
@@ -101,7 +130,7 @@ include('db.php');
 								<div class="agileits-banner-info">
 								<h4>Start Your Journey With Us</h4>
 									<h3>We know what you love</h3>
-										<p>Welcome to our hotels</p>
+										<p>Welcome to our Website</p>
 									<div class="agileits_w3layouts_more menu__item">
 				<a href="#" class="menu__link" data-toggle="modal" data-target="#myModal">Learn More</a>
 			</div>
@@ -158,10 +187,10 @@ include('db.php');
 								<div class="modal-content">
 									<div class="modal-header">
 										<button type="button" class="close" data-dismiss="modal">&times;</button>
-										<h4>MNM  <span>HOTEL</span></h4>
+										<h4>eye to eye <span>International</span></h4>
 										<img src="images/1.jpg" alt=" " class="img-responsive">
 										<h5>We know what you love</h5>
-										<p>Providing guests unique and enchanting views from their rooms with its exceptional amenities, makes Star Hotel one of bests in its kind.Try our food menu, awesome services and friendly staff while you are here.</p>
+										<p>Providing our customers unique and enchanting tours so they can enjoy their trip and we provide them the best facilities at cheapest rate .Try our packages, awesome services and friendly staff while you are here.</p>
 									</div>
 								</div>
 							</div>
@@ -169,7 +198,7 @@ include('db.php');
 <!-- //Modal1 -->
 <div id="availability-agileits">
 <div class="col-md-12 book-form-left-w3layouts">
-	<a href="admin/reservation.php"><h2>ROOM RESERVATION</h2></a>
+	<a href="admin/reservation.php"><h2>CUSTOMIZE YOUR PACKAGE</h2></a>
 </div>
 
 			<div class="clearfix"> </div>
@@ -178,7 +207,7 @@ include('db.php');
 	<div class="banner-bottom">
 		<div class="container">	
 			<div class="agileits_banner_bottom">
-				<h3><span>Experience a good stay, enjoy fantastic offers</span> Find our friendly welcoming reception</h3>
+				<h3><span>Experience a good tour, enjoy fantastic offers</span> Find our friendly welcoming staffs</h3>
 			</div>
 			<div class="w3ls_banner_bottom_grids">
 				<ul class="cbp-ig-grid">
@@ -216,23 +245,7 @@ include('db.php');
 	</div>
 <!-- //banner-bottom -->
 <!-- /about -->
- 	<div class="about-wthree" id="about">
-		  <div class="container">
-				   <div class="ab-w3l-spa">
-                            <h3 class="title-w3-agileits title-black-wthree">About Our MNM HOTEL</h3> 
-						   <p class="about-para-w3ls">Hotel MNM is located in the heart of the historic city of Mumbai in an extremely characteristic, quite and lively area within short walk distance to all sites and is surrounded by the extraordinary beauty of churches, buildings, shops and monuments. MNM Hotel is part of a lovingly restored 1800 palace. 
-
-						On entering this charming hotel in Mumbai, you will immediately sense its special intimate atmosphere that makes you feel like being in your own home. Each detail has been passionately chosen and each room deserves a visit. Hotel MNM style mixes valuable antiques and original artworks with an unexpected eclectic contemporary twist. The entire House recalls the ancient ‘Palazzi’  of times past where young European aristocrats lived while discovering the beauty and the artistic mysteries of Italy.
-</p>
-						   <img src="images/about.jpg" class="img-responsive" alt="Hair Salon">
-                                       <div class="w3ls-info-about">
-										    <h4>You'll love all the amenities we offer!</h4>
-											<p>We make the ordinary, extraordinary.</p>
-										</div>
-		          </div>
-		   	<div class="clearfix"> </div>
-    </div>
-</div>
+ 	
  	<!-- //about -->
 <!--sevices-->
 <div class="advantages">
@@ -264,104 +277,10 @@ include('db.php');
 		</div>
 	</div>
 </div>
+<br></br>
 <!--//sevices-->
 <!-- team -->
-<div class="team" id="team">
-	<div class="container">
-			<h3 class="title-w3-agileits title-black-wthree">Meet Our Team</h3>
-			<div id="horizontalTab">
-					<ul class="resp-tabs-list">
-					<li>
-						<img src="images/teams1.jpg" alt=" " class="img-responsive" />
-					</li>
-					<li>
-						<img src="images/teams2.jpg" alt=" " class="img-responsive" />
-					</li>
-					<li>
-						<img src="images/teams3.jpg" alt=" " class="img-responsive" />
-					</li>
-					<li>
-						<img src="images/teams4.jpg" alt=" " class="img-responsive" />
-					</li>
-					</ul>
-					<div class="resp-tabs-container">
-					<div class="tab1">
-						<div class="col-md-6 team-img-w3-agile">
-						</div>
-						<div class="col-md-6 team-Info-agileits">
-							<h4>Marzook khatri</h4>
-							<span>Manager</span>
-							<p>	My responsibilities include all aspects of Hotel services, sales, contracting, marketing, revenue management & day-to-day operations with the assistance of a fantastic team, but our main concern is the satisfaction of our guests. It will be my pleasure to welcome you to our MNM Hotel soon!</p>
-						<div class="social-bnr-agileits footer-icons-agileinfo">
-							<ul class="social-icons3">
-								<li><a href="#" class="fa fa-facebook icon-border facebook"> </a></li>
-								<li><a href="#" class="fa fa-twitter icon-border twitter"> </a></li>
-								<li><a href="#" class="fa fa-google-plus icon-border googleplus"> </a></li> 
-								<li><a href="#" class="fa fa-rss icon-border rss"> </a></li>
-							</ul>
-						</div>							
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="tab2">
-					<div class="col-md-6 team-img-w3-agile">
-						</div>
-						<div class="col-md-6 team-Info-agileits">
-							<h4>Nida Momin</h4>
-							<span>Receptionist</span>
-							<p>I started as a receptionist and immediately, I knew that this was a company I wanted to grow with. I have enjoyed this experience since my first year of joining our team. Being a part of this team gave me the opportunity to evolve as a person, while enjoying meeting people from all over the world. I have enjoyed being a part of the GDM Family for the past years and I look forward to more years to come.</p>	
-						<div class="social-bnr-agileits footer-icons-agileinfo">
-							<ul class="social-icons3">
-								<li><a href="#" class="fa fa-facebook icon-border facebook"> </a></li>
-								<li><a href="#" class="fa fa-twitter icon-border twitter"> </a></li>
-								<li><a href="#" class="fa fa-google-plus icon-border googleplus"> </a></li> 
-								<li><a href="#" class="fa fa-rss icon-border rss"> </a></li>
-							</ul>
-						</div>							
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="tab3">
-						<div class="col-md-6 team-img-w3-agile">
-						</div>
-						<div class="col-md-6 team-Info-agileits">
-							<h4>Mustansir Sabir</h4>
-							<span>Manager</span>
-							<p>My responsibilities include all aspects of Hotel services, sales, contracting, marketing, revenue management & day-to-day operations with the assistance of a fantastic team, but our main concern is the satisfaction of our guests. It will be my pleasure to welcome you to our MNM Hotel soon!</p>
-						<div class="social-bnr-agileits footer-icons-agileinfo">
-							<ul class="social-icons3">
-								<li><a href="#" class="fa fa-facebook icon-border facebook"> </a></li>
-								<li><a href="#" class="fa fa-twitter icon-border twitter"> </a></li>
-								<li><a href="#" class="fa fa-google-plus icon-border googleplus"> </a></li> 
-								<li><a href="#" class="fa fa-rss icon-border rss"> </a></li>
-							</ul>
-						</div>							
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="tab4">
-					<div class="col-md-6 team-img-w3-agile">
-						</div>
-						<div class="col-md-6 team-Info-agileits">
-							<h4>Zaki Bhojani</h4>
-							<span>Receptionist</span>
-							<p>Skilled in guest relations, customer service and management software systems, Zaki's all-round knowledge makes him a valuable asset to the company.
-</p>
-						<div class="social-bnr-agileits footer-icons-agileinfo">
-							<ul class="social-icons3">
-								<li><a href="#" class="fa fa-facebook icon-border facebook"> </a></li>
-								<li><a href="#" class="fa fa-twitter icon-border twitter"> </a></li>
-								<li><a href="#" class="fa fa-google-plus icon-border googleplus"> </a></li> 
-								<li><a href="#" class="fa fa-rss icon-border rss"> </a></li>
-							</ul>
-						</div>							
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					</div>
-			</div>
-	</div>
-</div>
+
 <!-- //team -->
 <!-- Gallery -->
 <section class="portfolio-w3ls" id="gallery">
@@ -466,107 +385,7 @@ include('db.php');
 </section>
 <!-- //gallery -->
 	 <!-- rooms & rates -->
-      <div class="plans-section" id="rooms">
-				 <div class="container">
-				 <h3 class="title-w3-agileits title-black-wthree">Rooms And Rates</h3>
-						<div class="priceing-table-main">
-				 <div class="col-md-3 price-grid">
-					<div class="price-block agile">
-						<div class="price-gd-top">
-						<img src="images/r1.jpg" alt=" " class="img-responsive" />
-							<h4>Deluxe Room</h4>
-						</div>
-						<div class="price-gd-bottom">
-							   <div class="price-list">
-									<ul>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-									
-								     </ul>
-							</div>
-							<div class="price-selet">	
-								<h3><span>Rs</span>9000</h3>						
-								<a href="admin/reservation.php" >Book Now</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 price-grid ">
-					<div class="price-block agile">
-						<div class="price-gd-top">
-						<img src="images/r2.jpg" alt=" " class="img-responsive" />
-							<h4>Luxury Room</h4>
-						</div>
-						<div class="price-gd-bottom">
-							<div class="price-list">
-									<ul>
-									<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-								</ul>
-							</div>
-							<div class="price-selet">
-								<h3><span>Rs</span>7000</h3>
-								<a href="admin/reservation.php" >Book Now</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 price-grid lost">
-					<div class="price-block agile">
-						<div class="price-gd-top">
-						<img src="images/r3.jpg" alt=" " class="img-responsive" />
-							<h4>Guest House</h4>
-						</div>
-						<div class="price-gd-bottom">
-							<div class="price-list">
-								<ul>
-									<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-								</ul>
-							</div>
-							<div class="price-selet">
-								<h3><span>Rs</span>5000</h3>
-								<a href="admin/reservation.php" >Book Now</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 price-grid wthree lost">
-					<div class="price-block agile">
-						<div class="price-gd-top ">
-							<img src="images/r4.jpg" alt=" " class="img-responsive" />
-							<h4>Single Room</h4>
-						</div>
-						<div class="price-gd-bottom">
-							<div class="price-list">
-								<ul>
-									<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-								</ul>
-							</div>
-							<div class="price-selet">
-								<h3><span>Rs</span> 3500</h3>
-								<a href="admin/reservation.php" >Book Now</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
+     
 	 <!--// rooms & rates -->
   <!-- visitors -->
 	<div class="w3l-visitors-agile" >
@@ -724,7 +543,7 @@ include('db.php');
 		<div class="col-lg-6 col-md-6 col-sm-6 contact-w3-agile1" data-aos="flip-right">
 			<h4>Connect With Us</h4>
 			<p class="contact-agile1"><strong>Phone :</strong>+91 7439121234</p>
-			<p class="contact-agile1"><strong>Email :</strong> <a href="mailto:name@example.com">bookings@mnmhotel.com</a></p>
+			<p class="contact-agile1"><strong>Email :</strong> <a href="mailto:name@example.com">eyetoeyeinternational@gmail.com</a></p>
 			<p class="contact-agile1"><strong>Address :</strong> Besides Taj Mahal hotel, Near Gateway of India, Colaba,Mumbai.</p>
 																
 			<div class="social-bnr-agileits footer-icons-agileinfo">
