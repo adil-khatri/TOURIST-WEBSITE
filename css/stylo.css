@@ -1068,7 +1068,7 @@ h3.title-w3-agileits {
 /*--//main--*/
 /*-- /about --*/
 .about-wthree {
-    padding: 5em 0 22.6em 0px;
+    padding: 4em 0 22.6em 0px;
     background: #eceef2;
 }
 .ab-w3l-spa {
@@ -1086,7 +1086,7 @@ h3.title-w3-agileits {
     left: 46%;
     z-index: 99;
     padding: 2em 4.5em;
-    top: 107%;
+    top: 55em;
     border: 10px solid #000;
 }
 .w3ls-info-about h4 {
@@ -1169,7 +1169,7 @@ p.about-para-w3ls {
 /*--//services-section--*/
 /*-- team --*/
 
-.tab1 .team-img-w3-agile{
+.tab1 .team-w3-agile{
 	  background: url(../images/sher.jpg)no-repeat 0px 0px;
 }
 .tab2 .team-img-w3-agile{

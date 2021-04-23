@@ -1,0 +1,314 @@
+*{
+	margin:0; padding: 0; 
+	box-sizing: border-box;
+	background-color:  #eceef2;
+
+}
+.textb {
+	position: absolute;
+	top: 20%;
+	left: 23%;
+    font-size: 2em;
+    background: transparent;
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Arial', sans-serif;
+	
+}
+h5{
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+span h5,h2,h3,h1{
+	text-decoration-line: underline;
+    background-color: #eceef2;
+	text-decoration-color: #f34f4f;
+}
+/*.backimg{
+	
+	background: linear-gradient(rgba(0,0,0,0.3),rgba(1,5,0,0.4)),url(../images/infopackg.jpg) no-repeat 0px 0px;
+
+    background-size: cover;	
+	-webkit-background-size: cover;	
+	-moz-background-size: cover;
+	-o-background-size: cover;		
+	-moz-background-size: cover;
+	min-height: 250px;
+}
+*/
+.backimg{
+width: 100%; 
+height: 50vh;
+background: linear-gradient(rgba(0,0,0,0.2),rgba(1,5,0,0.5)),url(../images/mountain.jpeg) no-repeat 0px 0px;
+background-repeat: no-repeat;
+background-size: cover; 
+filter:blur(0.9px);
+-webkit-filter:blur(0.9px);
+}
+
+/*HOLIDAY THEMES*/
+
+.Ltitle h5{
+	font-size: 1.5em;
+	color: #333;
+	margin-top: 20px;
+	margin-left: 35px;
+    font-family: "Lato Bold", sans-serif;
+}
+.listL{
+	margin-top:10px; 
+	border: 0px solid black;
+	margin-left:35px;
+	margin-right: 64.5em;
+	padding-bottom: 18px;
+	background-color: #f8f9f9;
+	
+}
+.hthemes{
+	padding-top: 10px;
+	font-size: 1.3em;
+	font-weight:normal; 
+	font-family: 'Lato Regular',sans-serif;
+	padding-left: 14px;
+	line-height: 1.6em;
+	background-color: #f8f9f9;
+
+}
+
+
+/*Right side para and title*/
+
+.Rtitle h2{
+	position: absolute;
+	top: 50%;
+	left: 26%;
+	font-size: 1.5em;
+	color: #333;
+	margin-top: 20px;
+	font-weight: bold;
+    font-family: "Lato Bold", sans-serif;
+}
+.rbox{
+	position: absolute;
+	top: 60%;
+	left: 26%;
+	border: 0px solid black;
+	margin-right: 35px;
+	background-color: #f8f9f9;
+	padding-bottom: 7.1em;
+
+}
+.rpara p{
+	font-size: 1.2em;
+	padding: 10px;   /*Padding for all 4 sides*/
+	float: left;
+	font-weight:normal; 
+	font-family: "Lato Regular",sans-serif;
+	background-color:  #f8f9f9;
+}
+.Thotel h3{
+	position: absolute;
+	top: 101%;
+	left: 35px;
+	font-size: 1.5em;
+	color: #333;
+	margin-top: 20px;
+	font-weight: bold;
+    font-family: "Lato Bold", sans-serif;
+}
+.leftbox{
+	margin-top:3.9em; 
+	border: 0px solid black;
+	margin-left:35px;
+	margin-right: 64.5em;
+	padding-bottom: 18px;
+	background-color: #f8f9f9;
+}
+.lefttext{
+	padding-top: 10px;
+	font-size: 1.2em;
+	font-weight:normal; 
+	font-family: "Lato Regular",sans-serif;
+	padding-left: 14px;
+	line-height: 1.5em;
+	background-color: #f8f9f9;
+}
+
+/*Top Domestic Airlines*/
+
+.Tairline h1{
+	position: absolute;
+	top: 160%;
+	left: 35px;
+	font-size: 1.5em;
+	color: #333;
+	margin-top: 20px;
+	font-weight: bold;
+    font-family: "Lato Bold", sans-serif;
+}
+
+.airbox{
+	margin-top:4em; 
+	border: 1px solid #f8f9f9 ;
+	margin-left:35px;
+	margin-right: 64.5em;
+	padding-bottom: 40px;
+	background-color: #f8f9f9;
+}
+
+.airtext{
+	display: flex;
+	padding-top: 15px;
+	font-size: 1.2em;
+	font-weight:normal; 
+	font-family: "Lato Regular",sans-serif;
+	padding-left: 14px;
+	line-height: 1.5em;
+	background-color: #f8f9f9;
+}
+
+.airtext .logo img{
+	max-width: 100%;
+	position: absolute;
+	top: 172.3%;
+	width:40px;
+	flex: 0 0 150px;
+}
+.airtext .intext{
+padding-left: 60px;	
+background-color: #f8f9f9;
+}
+.onh:hover{
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	cursor: pointer;
+}
+/* 2nd logo*/
+.airtext1{
+	display: flex;
+	padding-top: 15px;
+	font-size: 1.2em;
+	font-weight:normal; 
+	font-family: "Lato Regular",sans-serif;
+	padding-left: 14px;
+	line-height: 1.5em;
+	background-color: #f8f9f9;
+}
+.airtext1 .logo1 img{
+	max-width: 100%;
+	position: absolute;
+	top: 180.4%;
+	width:40px;
+	flex: 0 0 150px;
+}
+.airtext1 .intext1{
+	padding-top: 2px;
+padding-left: 60px;	
+background-color: #f8f9f9;
+}
+
+/*3rd logo*/
+
+.airtext2{
+	display: flex;
+	padding-top: 15px;
+	font-size: 1.2em;
+	font-weight:normal; 
+	font-family: "Lato Regular",sans-serif;
+	padding-left: 14px;
+	line-height: 1.5em;
+	background-color: #f8f9f9;
+}
+.airtext2 .logo2 img{
+	max-width: 100%;
+	position: absolute;
+	top: 186.8%;
+	width:40px;
+	flex: 0 0 150px;
+}
+.airtext2 .intext2{
+	padding-top: 5px;
+padding-left: 60px;	
+background-color: #f8f9f9;
+}
+
+/*3rd logo*/
+
+.airtext3{
+	display: flex;
+	padding-top: 15px;
+	font-size: 1.2em;
+	font-weight:normal; 
+	font-family: "Lato Regular",sans-serif;
+	padding-left: 14px;
+	line-height: 1.5em;
+	background-color: #f8f9f9;
+}
+.airtext3 .logo3 img{
+	max-width: 100%;
+	position: absolute;
+	top: 195.1%;
+	width:40px;
+	flex: 0 0 150px;
+}
+.airtext3 .intext3{
+	padding-top: 6px;
+padding-left: 60px;	
+background-color: #f8f9f9;
+}
+
+
+/*4th logo*/
+
+.airtext4{
+	display: flex;
+	padding-top: 15px;
+	font-size: 1.2em;
+	font-weight:normal; 
+	font-family: "Lato Regular",sans-serif;
+	padding-left: 14px;
+	line-height: 1.5em;
+	background-color: #f8f9f9;
+}
+.airtext4 .logo4 img{
+	max-width: 100%;
+	position: absolute;
+	top: 203.3%;
+	width:40px;
+	flex: 0 0 150px;
+}
+.airtext4 .intext4{
+	padding-top: 5px;
+padding-left: 60px;	
+background-color: #f8f9f9;
+}
+
+
+/*5th logo*/
+.airtext5{
+	display: flex;
+	padding-top: 15px;
+	font-size: 1.2em;
+	font-weight:normal; 
+	font-family: "Lato Regular",sans-serif;
+	padding-left: 14px;
+	line-height: 1.5em;
+	background-color: #f8f9f9;
+}
+.airtext5 .logo5 img{
+	max-width: 100%;
+	position: absolute;
+	top: 211%;
+	width:40px;
+	flex: 0 0 150px;
+}
+.airtext5 .intext5{
+	padding-top: 5px;
+padding-left: 60px;	
+background-color: #f8f9f9;
+}

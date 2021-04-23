@@ -55,6 +55,10 @@ include('db.php');
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
 }
+.img-responsive{
+	max-width: 100%;
+	max-height: 60%;
+}
 
 </style>
 <body>
@@ -104,10 +108,10 @@ include('db.php');
 					<nav class="menu menu--iris">
 						<ul class="nav navbar-nav menu__list">
 							<li class="menu__item menu__item--current"><a href="" class="menu__link">Home</a></li>
-							<li class="menu__item"><a href="about.html" class="menu__link" >About</a></li>
-							<li class="menu__item"><a href="#packages" class="menu__link scroll">Packages</a></li>
+							<li class="menu__item"><a href="about.php" class="menu__link" >About</a></li>
+							<li class="menu__item"><a href="infopackg.php" class="menu__link">Packages</a></li>
 							<li class="menu__item"><a href="#gallery" class="menu__link scroll">Gallery</a></li>
-							<li class="menu__item"><a href="#rooms" class="menu__link scroll">Blogs</a></li>
+							<li class="menu__item"><a href="infopackg.php" class="menu__link">Feedbacks</a></li>
 							<li class="menu__item"><a href="#contact" class="menu__link scroll">Contact Us</a></li>
 						</ul>
 					</nav>
@@ -215,28 +219,28 @@ include('db.php');
 						<div class="w3_grid_effect">
 							<span class="cbp-ig-icon w3_road"></span>
 							<h4 class="cbp-ig-title">MASTER BEDROOMS</h4>
-							<span class="cbp-ig-category">MNM HOTEL</span>
+							<span class="cbp-ig-category">ETE International</span>
 						</div>
 					</li>
 					<li>
 						<div class="w3_grid_effect">
 							<span class="cbp-ig-icon w3_cube"></span>
 							<h4 class="cbp-ig-title">SEA VIEW BALCONY</h4>
-							<span class="cbp-ig-category">MNM HOTEL</span>
+							<span class="cbp-ig-category">ETE International</span>
 						</div>
 					</li>
 					<li>
 						<div class="w3_grid_effect">
 							<span class="cbp-ig-icon w3_users"></span>
 							<h4 class="cbp-ig-title">LARGE CAFE</h4>
-							<span class="cbp-ig-category">MNM HOTEL</span>
+							<span class="cbp-ig-category">ETE International</span>
 						</div>
 					</li>
 					<li>
 						<div class="w3_grid_effect">
 							<span class="cbp-ig-icon w3_ticket"></span>
 							<h4 class="cbp-ig-title">WIFI COVERAGE</h4>
-							<span class="cbp-ig-category">MNM HOTEL</span>
+							<span class="cbp-ig-category">ETE International</span>
 						</div>
 					</li>
 				</ul>
@@ -251,13 +255,13 @@ include('db.php');
 <div class="advantages">
 	<div class="container">
 		<div class="advantages-main">
-				<h3 class="title-w3-agileits">Our Services</h3>
+				<h3 class="title-w3-agileits">Hotel Services</h3>
 		   <div class="advantage-bottom">
 			 <div class="col-md-6 advantage-grid left-w3ls wow bounceInLeft" data-wow-delay="0.3s">
 			 	<div class="advantage-block ">
 					<i class="fa fa-credit-card" aria-hidden="true"></i>
-			 		<h4>Stay First, Pay After! </h4>
-			 		<p> You pay for your accommodation when you arrive and your rooms are guaranteed for your arrival.</p>
+			 		<h4>Worth Your Payment ! </h4>
+			 		<p> You pay for your accommodation and your rooms are guaranteed for your arrival.</p>
 					<p><i class="fa fa-check" aria-hidden="true"></i>Decorated room, proper air conditioned</p>
 					<p><i class="fa fa-check" aria-hidden="true"></i>Private balcony</p>
 			 		
@@ -266,7 +270,7 @@ include('db.php');
 			 <div class="col-md-6 advantage-grid right-w3ls wow zoomIn" data-wow-delay="0.3s">
 			 	<div class="advantage-block">
 					<i class="fa fa-clock-o" aria-hidden="true"></i>
-			 		<h4>24 Hour Restaurant</h4>
+			 		<h4>24 Hour Restaurant !</h4>
 			 		<p>We Never Close</p>
 					<p><i class="fa fa-check" aria-hidden="true"></i>24 hours room service</p>
 					<p><i class="fa fa-check" aria-hidden="true"></i>24-hour Concierge service</p>
@@ -286,33 +290,33 @@ include('db.php');
 <section class="portfolio-w3ls" id="gallery">
 		 <h3 class="title-w3-agileits title-black-wthree">Our Gallery</h3>
 				<div class="col-md-3 gallery-grid gallery1">
-					<a href="images/g1.jpg" class="swipebox"><img src="images/g1.jpg" class="img-responsive" alt="/">
+					<a href="images/ladakh.jpg" class="swipebox"><img src="images/ladakh.jpg" class="img-responsive" alt="/">
 						<div class="textbox">
-						<h4>MNM HOTEL</h4>
+						<h4>LADAKH!</h4>
 							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
 						</div>
 				</a>
 				</div>
 				<div class="col-md-3 gallery-grid gallery1">
-					<a href="images/g2.jpg" class="swipebox"><img src="images/g2.jpg" class="img-responsive" alt="/">
+					<a href="images/shimla.jpg" class="swipebox"><img src="images/shimla.jpg" class="img-responsive" alt="/">
 						<div class="textbox">
-						<h4>MNM HOTEL</h4>
+						<h4>KASHMIR!</h4>
 							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
 						</div>
 				</a>
 				</div>
 				<div class="col-md-3 gallery-grid gallery1">
-					<a href="images/g3.jpg" class="swipebox"><img src="images/g3.jpg" class="img-responsive" alt="/">
+					<a href="images/flag.jpg" class="swipebox"><img src="images/flag.jpg" class="img-responsive" alt="/">
 						<div class="textbox">
-						<h4>MNM HOTEL</h4>
+						<h4>SHIMLA!</h4>
 							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
 						</div>
 				</a>
 				</div>
 				<div class="col-md-3 gallery-grid gallery1">
-					<a href="images/g4.jpg" class="swipebox"><img src="images/g4.jpg" class="img-responsive" alt="/">
+					<a href="images/goa.jpg" class="swipebox"><img src="images/goa.jpg" class="img-responsive" alt="/">
 						<div class="textbox">
-						<h4>MNM HOTEL</h4>
+						<h4>GOA!</h4>
 							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
 						</div>
 				</a>
@@ -320,7 +324,7 @@ include('db.php');
 				<div class="col-md-3 gallery-grid gallery1">
 					<a href="images/g5.jpg" class="swipebox"><img src="images/g5.jpg" class="img-responsive" alt="/">
 						<div class="textbox">
-						<h4>MNM HOTEL</h4>
+						<h4>LUXURY HOTEL!</h4>
 							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
 						</div>
 					</a>
@@ -328,7 +332,7 @@ include('db.php');
 				<div class="col-md-3 gallery-grid gallery1">
 					<a href="images/g6.jpg" class="swipebox"><img src="images/g6.jpg" class="img-responsive" alt="/">
 						<div class="textbox">
-						<h4>MNM HOTEL</h4>
+						<h4>LUXURY ROOM!</h4>
 							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
 					   </div>
 				   </a>
@@ -336,7 +340,7 @@ include('db.php');
 				<div class="col-md-3 gallery-grid gallery1">
 					<a href="images/g6.jpg" class="swipebox"><img src="images/g7.jpg" class="img-responsive" alt="/">
 						<div class="textbox">
-						<h4>MNM HOTEL</h4>
+						<h4>LUXURY HOTEL!</h4>
 							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
 					   </div>
 				   </a>
@@ -344,39 +348,39 @@ include('db.php');
 				<div class="col-md-3 gallery-grid gallery1">
 					<a href="images/g6.jpg" class="swipebox"><img src="images/g8.jpg" class="img-responsive" alt="/">
 						<div class="textbox">
-						<h4>MNM HOTEL</h4>
+						<h4>LUXURY ROOM!</h4>
 							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
 					   </div>
 				   </a>
 				</div>
 					<div class="col-md-3 gallery-grid gallery1">
-					<a href="images/g9.jpg" class="swipebox"><img src="images/g9.jpg" class="img-responsive" alt="/">
+					<a href="images/g9.jpg" class="swipebox"><img src="https://envato-shoebox-0.imgix.net/720e/cde5-504e-458a-945c-ec8c07b2d859/DR_191031_105922_3572.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=1600&s=7c031e8a80348b5600c397058d69d2a7" class="img-responsive" alt="/">
 						<div class="textbox">
-						<h4>MNM HOTEL</h4>
+						<h4>SEA LINK!</h4>
 							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
 						</div>
 				</a>
 				</div>
 				<div class="col-md-3 gallery-grid gallery1">
-					<a href="images/g10.jpg" class="swipebox"><img src="images/g10.jpg" class="img-responsive" alt="/">
+					<a href="images/g10.jpg" class="swipebox"><img src="https://www.industraveller.com/wp-content/uploads/2019/05/Lonavala-and-Mumbai-package-min.jpg" class="img-responsive" alt="/">
 						<div class="textbox">
-						<h4>MNM HOTEL</h4>
+						<h4>LONAVALA!</h4>
 							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
 						</div>
 				</a>
 				</div>
 				<div class="col-md-3 gallery-grid gallery1">
-					<a href="images/g4.jpg" class="swipebox"><img src="images/g4.jpg" class="img-responsive" alt="/">
+					<a href="images/g4.jpg" class="swipebox"><img src="https://adishaktitravels.com/wp-content/uploads/2019/02/solang-valley-manali.jpg" class="img-responsive" alt="/">
 						<div class="textbox">
-						<h4>MNM HOTEL</h4>
+						<h4>SOLANG VALLEY!</h4>
 							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
 						</div>
 				</a>
 				</div>
 				<div class="col-md-3 gallery-grid gallery1">
-					<a href="images/g2.jpg" class="swipebox"><img src="images/g2.jpg" class="img-responsive" alt="/">
+					<a href="images/g2.jpg" class="swipebox"><img src="https://s.yimg.com/ny/api/res/1.2/hgirTG.TaJlNNrr8cqr7pw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTY0MC45MTQxMzIwNzg2NDIz/https://s.yimg.com/os/creatr-images/2020-07/c6c2da40-c2b1-11ea-be2f-b860fa9a5e1e" class="img-responsive" alt="/">
 						<div class="textbox">
-						<h4>MNM HOTEL</h4>
+						<h4>UDAIPUR!</h4>
 							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
 						</div>
 				</a>
@@ -561,7 +565,7 @@ include('db.php');
 </section>
 <!-- /contact -->
 			<div class="copy">
-		        <p>© 2020 MNM HOTEL . All Rights Reserved | Design by <a href="index.php">MNM HOTEL</a> </p>
+		        <p>© 2021 EYE TO EYE INTERNATIONAL . All Rights Reserved | Design by <a href="index.php">EYE TO EYE INTERNATIONAL</a> </p>
 		    </div>
 <!--/footer -->
 <!-- js -->

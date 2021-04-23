@@ -37,7 +37,7 @@ include('db.php')
 			 <div class="row">
                     <div class="col-md-12">
                         <h1 class="page-header">
-                            RESERVATION <small></small>
+                            CUSTOMIZE YOUR PACKAGE <small></small>
                         </h1>
                     </div>
                 </div> 
@@ -122,17 +122,17 @@ include('db.php')
                 <div class="col-md-6 col-sm-6">
                     <div class="panel panel-primary">
                         <div class="panel-heading">
-                            RESERVATION INFORMATION
+                            PACKAGE INFORMATION
                         </div>
                         <div class="panel-body">
 								<div class="form-group">
-                                            <label>Type Of Room *</label>
+                                            <label>Type Of Tour *</label>
                                             <select name="troom"  class="form-control" required>
 												<option value selected ></option>
-                                                <option value="Superior Room">SUPERIOR ROOM</option>
-                                                <option value="Deluxe Room">DELUXE ROOM</option>
-												<option value="Guest House">GUEST HOUSE</option>
-												<option value="Single Room">SINGLE ROOM</option>
+                                                <option value="Superior Room">FAMILY TOUR</option>
+                                                <option value="Deluxe Room">RELIGIOUS TOUR</option>
+												<option value="Guest House">HONEYMOON TOUR</option>
+												<option value="Single Room">WILDLIFE TOUR</option>
                                             </select>
                               </div>
 							  <div class="form-group">
